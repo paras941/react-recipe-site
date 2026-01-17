@@ -38,7 +38,7 @@ react-recipe-app/
 | Props                    | All Components            | Data flow between components            |
 | React Router             | App.jsx                   | Client-side routing                     |
 | Conditional Rendering    | RecipeList, Loader        | Dynamic UI rendering                    |
-| Reusable Components      | RecipeCard, Navbar        | Clean component architecture             |
+| Reusable Components      | RecipeCard, Navbar        | Clean component architecture            |
 
 🧠 Core Functionalities
 
