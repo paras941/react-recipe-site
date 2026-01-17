@@ -1,62 +1,74 @@
-🍽️ React Recipe App
+🍽️ RecipeX
 
-A modern recipe website built with React and Vite, styled using SCSS, focused on performance, modularity, and clean architecture.
+A modern, responsive recipe web application built with React and Vite, demonstrating real-world usage of core React concepts like useState, useEffect, props, routing, and component-based architecture, with modular SCSS styling.
 
-🚀 Features
-Feature	Description
-Recipe Browsing	View and explore multiple recipes
-Responsive UI	Works smoothly on mobile, tablet, and desktop
-Component-Based	Reusable and well-organized React components
-SCSS Styling	Modular, maintainable, and scalable styles
-Fast Build	Optimized using Vite for lightning-fast performance
+This project is built to showcase clean frontend structure and best practices for portfolio, internships, and placement interviews.
 
-🧩 Project Structure
+🚀 Tech Stack
+
+React (Vite)
+JavaScript (ES6+)
+React Router DOM
+SCSS (Modular Styling)
+Responsive Design
+
+📂 Project Structure
 react-recipe-app/
-├── public/                 # Static assets (images, icons, favicon)
+├── public/
+│   └── images/
 ├── src/
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Page-level components (Home, Recipe, etc.)
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── RecipeCard/
+│   │   ├── SearchBar/
+│   │   └── Footer/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── RecipeDetails.jsx
+│   │   └── Favorites.jsx
 │   ├── styles/
-│   │   ├── partials/       # SCSS variables, mixins, resets
-│   │   └── index.scss     # Main SCSS entry file
-│   ├── App.jsx            # Root component
-│   └── main.jsx           # React entry point
-├── index.html             # HTML template
-├── package.json           # Dependencies and scripts
-├── vite.config.js         # Vite configuration
-└── README.md              # Project documentation
+│   │   ├── partials/
+│   │   │   ├── _variables.scss
+│   │   │   ├── _mixins.scss
+│   │   │   └── _reset.scss
+│   │   └── index.scss
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+## ⚛️ React Concepts Used
 
-⚙️ Tech Stack
-Technology	Purpose
-React	UI development
-Vite	Build tool & dev server
-SCSS	Styling and theming
-JavaScript (ES6+)	Application logic
-🛠️ Installation & Setup
-# Clone the repository
+| Feature / Hook            | Where Used                 | Purpose                               |
+|--------------------------|----------------------------|----------------------------------------|
+| `useState`               | Search, Favorites, Filters| Manage UI and recipe state              |
+| `useEffect`              | Recipe Fetching           | Handle API calls and side-effects       |
+| Props                    | All Components            | Data flow between components            |
+| React Router             | App.jsx                   | Client-side routing                     |
+| Conditional Rendering    | RecipeList, Loader        | Dynamic UI rendering                    |
+| Reusable Components      | RecipeCard, Navbar        | Clean component architecture             |
+
+🧠 Core Functionalities
+
+Browse Recipes
+Recipe Details Page
+Search & Filter Recipes
+Add to Favorites
+Responsive Layout
+SCSS Modular Styling
+
+🛠 Installation
 git clone https://github.com/your-username/react-recipe-app.git
-
-# Enter the project directory
 cd react-recipe-app
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 
-# Build for production
-npm run build
+🔮 Future Improvements
 
-
-Production-ready files will be generated in the dist/ folder.
-
-🔮 Future Enhancements
-Feature	Status
-Search & Filter	Planned
-Favorite Recipes	Planned
-Dark / Light Theme	Planned
-API Integration	Planned
-📜 License
-License	Description
-MIT	Free to use, modify, and distribut
+API Integration (Spoonacular / Edamam)
+User Authentication
+Meal Planner
+Dark / Light Theme
+Nutrition Information
