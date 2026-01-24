@@ -2,7 +2,7 @@
 
 A modern and responsive **recipe web application** built with **React and Vite**, showcasing real-world usage of core React concepts such as state management, side effects, routing, and reusable component architecture with modular SCSS styling.
 
-🔗 **Live Demo: [Click here](https://react-recipe-site-zeta.vercel.app)
+🔗 **Live Demo:  [Click here](https://react-recipe-site-zeta.vercel.app)
 
 ---
 
